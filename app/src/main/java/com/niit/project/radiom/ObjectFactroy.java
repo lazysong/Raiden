@@ -159,7 +159,7 @@ public class ObjectFactroy {
 			enemyPlane = new EnemyPlane("img/boss1.png", "img/boom.png", 10, 
 					assetManager, 0.05f, currentX, currentY, 
 					destX, destY, 20000, 6, 500, EnemyType.boss1);//最后一个参数和爆炸的图片数组长度有关
-			enemyPlane.addBullet(BulletType.bullet2, 1000);
+			enemyPlane.addBullet(BulletType.bullet5, 1000);
 			enemyPlane.addBullet(BulletType.bullet1_left, 1000);
 			enemyPlane.addBullet(BulletType.bullet1_right, 1000);
 			enemyPlane.setStep(5);
@@ -173,7 +173,7 @@ public class ObjectFactroy {
 			enemyPlane =  new EnemyPlane("img/boss2.png", "img/boom.png", 10, 
 					assetManager, 0.05f, currentX, currentY, 
 					destX, destY, 5000, 6, 1000, EnemyType.boss1);//最后一个参数和爆炸的图片数组长度有关
-			enemyPlane.addBullet(BulletType.bullet2, 1000);
+			enemyPlane.addBullet(BulletType.bullet5, 1000);
 			enemyPlane.addBullet(BulletType.bullet1_left, 1000);
 			enemyPlane.addBullet(BulletType.bullet1_right, 1000);
 			enemyPlane.setStep(5);
@@ -187,7 +187,7 @@ public class ObjectFactroy {
 			enemyPlane =  new EnemyPlane("img/boss3.png", "img/boom.png", 10, 
 					assetManager, 0.05f, currentX, currentY, 
 					destX, destY, 10000, 6, 5000, EnemyType.boss1);//最后一个参数和爆炸的图片数组长度有关
-			enemyPlane.addBullet(BulletType.bullet2, 1000);
+			enemyPlane.addBullet(BulletType.bullet5, 1000);
 			enemyPlane.addBullet(BulletType.bullet1_left, 1000);
 			enemyPlane.addBullet(BulletType.bullet1_right, 1000);
 			enemyPlane.setStep(5);

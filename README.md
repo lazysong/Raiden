@@ -1,4 +1,7 @@
 # Raiden
 一款Android端飞行射击类小游戏，类似雷电。
 
-A small flight-shooting games running on Android devices, which is like Radien.
+##1. 项目介绍
+这是我写的唯一一个游戏（好吧，也许只能称之为玩具）。当时是模仿Radien所写的，主要就是实现了一个自定义的SurfaceView，并写了一些可以重用的模块，工厂模式也首次大量运用于这个项目中。
+
+##2. 项目展示

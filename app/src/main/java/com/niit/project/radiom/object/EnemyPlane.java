@@ -221,6 +221,12 @@ public class EnemyPlane extends BasePlane {
 			return new Bullet("img/bullet4.png", assetManager, 0.1f, currentX - 10, currentY, currentX - 40, 480, 100, false);
 		case bullet4_right:
 			return new Bullet("img/bullet4.png", assetManager, 0.1f, currentX + 10, currentY, currentX + 40, 480, 100, false);
+		case bullet5:
+			return new Bullet("img/bullet2.png", assetManager, 0.07f, currentX, currentY, currentX, 480, 20, false);
+		case bullet5_left://发射位置为左边
+			return new Bullet("img/bullet2.png", assetManager, 0.07f, currentX - 40, currentY, currentX - 60, 480, 20, false);
+		case bullet5_right://发射位置为右边
+				return new Bullet("img/bullet2.png", assetManager, 0.07f, currentX + 40, currentY, currentX + 60, 480, 20, false);
 		default:
 			return null;
 		}
