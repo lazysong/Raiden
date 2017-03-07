@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\Radien\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bgm1.mp3",
+        "source": "D:\\team_trac_project\\tech_valid\\Radien\\app\\src\\main\\res\\raw\\bgm1.mp3"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\Radien\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bossboom.mp3",
+        "source": "D:\\team_trac_project\\tech_valid\\Radien\\app\\src\\main\\res\\raw\\bossboom.mp3"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\Radien\\app\\build\\intermediates\\res\\merged\\debug\\raw\\getaward.mp3",
+        "source": "D:\\team_trac_project\\tech_valid\\Radien\\app\\src\\main\\res\\raw\\getaward.mp3"
+    }
+]

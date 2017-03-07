@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.niit.project.radiom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+	
+    <com.niit.project.radiom.view.GameView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/pause_start"
+        android:layout_width="21dp"
+        android:layout_height="19dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="30dp"
+        android:background="@drawable/pause"/>
+</FrameLayout>
